@@ -256,7 +256,7 @@ class Sidebar extends Component {
                     to="/app/gogo"
                     onClick={e => this.openSubMenu(e, "gogo")}
                   >
-                    <i className="iconsmind-Air-Balloon" />{" "}
+                    <i className="iconsmind-Pantheon" />{" "}
                     <IntlMessages id="menu.gogo" />
                   </NavLink>
                 </NavItem>
@@ -269,7 +269,7 @@ class Sidebar extends Component {
                     to="/app/second-menu"
                     onClick={e => this.openSubMenu(e, "second-menu")}
                   >
-                    <i className="iconsmind-Chemical-3" />{" "}
+                    <i className="simple-icon-home" />{" "}
                     <IntlMessages id="menu.second-menu" />
                   </NavLink>
                 </NavItem>
