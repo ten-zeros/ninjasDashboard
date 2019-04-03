@@ -291,7 +291,7 @@ class Sidebar extends Component {
               >
                 <NavItem>
                   <NavLink to="/app/gogo/start">
-                    <i className="simple-icon-paper-plane" />{" "}
+                    <i className="simple-icon-home" />{" "}
                     <IntlMessages id="menu.start" />
                   </NavLink>
                 </NavItem>
@@ -305,7 +305,7 @@ class Sidebar extends Component {
               >
                 <NavItem>
                   <NavLink to="/app/second-menu/second">
-                    <i className="simple-icon-paper-plane" />{" "}
+                    <i className="simple-icon-home" />{" "}
                     <IntlMessages id="menu.second" />
                   </NavLink>
                 </NavItem>

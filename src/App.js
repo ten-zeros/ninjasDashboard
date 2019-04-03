@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import App from 'Containers/App';
 import { configureStore } from 'Redux/store';
 
+
+//This just loads 
 const MainApp = () => (
 	<Provider store={configureStore()}>
 			<Router>

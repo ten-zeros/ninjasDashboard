@@ -27,9 +27,9 @@ module.exports = {
   /* 03.Menu */
   "menu.app": "Home",
   "menu.gogo": "Projects",
-  "menu.start": "Start",
+  "menu.start": "Dashboard",
   "menu.second-menu": "Past Projects",
-  "menu.second": "Second",
+  "menu.second": "Archive",
   "menu.ui": "UI",
   "menu.charts": "Charts",
   "menu.chat": "Chat",

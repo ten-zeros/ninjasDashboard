@@ -6,6 +6,7 @@ import Sidebar from "Containers/Sidebar";
 
 import gogo from "./gogo";
 import secondMenu from "./second-menu";
+import profile from "./profile";
 
 import { connect } from "react-redux";
 
@@ -25,6 +26,7 @@ class MainApp extends Component {
             <Switch>
               <Route path={`${match.url}/gogo`} component={gogo} />
               <Route path={`${match.url}/second-menu`} component={secondMenu} />
+              <Route path={`${match.url}/profile`} component={profile}></Route>
               <Redirect to="/error" />
             </Switch>
           </div>
