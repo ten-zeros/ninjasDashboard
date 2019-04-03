@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "Gogo Start - React Bootstrap 4 Admin Dashboard Template",
   "scripts": {
-    "start": "webpack-dev-server --mode development --hot --progress --open --port 3000",
+    "start": "webpack-dev-server --mode development --hot --progress --open",
     "build": "webpack --mode production"
   },
   "keywords": [
